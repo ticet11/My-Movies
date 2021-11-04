@@ -1,46 +1,48 @@
 {
-  "name": "movie-server-interface",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.15.0",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.24.0",
-    "eslint-config-react-app": "^6.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.12",
-    "node-sass": "^6.0.1",
-    "pure-react-carousel": "^1.27.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.0.0",
-    "react-scripts": "^4.0.3"
-  },
-  "scripts": {
-    "devStart": "nodemon server.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "dotenv": "^10.0.0",
-    "nodemon": "^2.0.14"
-  }
+	"author": "Brian Kozub <brian@briankozub.com> (https://briankozub.com)",
+	"browserslist": {
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		],
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		]
+	},
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.15.0",
+		"@testing-library/react": "^12.1.2",
+		"@testing-library/user-event": "^13.5.0",
+		"axios": "^0.24.0",
+		"eslint-config-react-app": "^6.0.0",
+		"express": "^4.17.1",
+		"mongoose": "^6.0.12",
+		"node-sass": "^6.0.1",
+		"pure-react-carousel": "^1.27.6",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-router-dom": "^6.0.0",
+		"react-scripts": "^4.0.3"
+	},
+	"devDependencies": {
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.14"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"license": "MIT",
+	"name": "movie-server-interface",
+	"private": true,
+	"scripts": {
+		"build": "react-scripts build",
+		"devStart": "nodemon server.js",
+		"eject": "react-scripts eject",
+		"start": "react-scripts start",
+		"test": "react-scripts test"
+	},
+	"version": "0.1.0"
 }

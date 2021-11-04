@@ -1,23 +1,23 @@
 {
-  "name": "movie-server-interface-database",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "devStart": "nodemon server.js"
-  },
-  "author": "Brian Kozub <ticet11@gmail.com> (https://www.wiltingdaisy.com)",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.12"
-  },
-  "devDependencies": {
-    "dotenv": "^10.0.0",
-    "nodemon": "^2.0.14"
-  }
+	"author": "Brian Kozub <brian@briankozub.com> (https://briankozub.com)",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mongoose": "^6.0.12"
+	},
+	"description": "",
+	"devDependencies": {
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.14"
+	},
+	"directories": {
+		"doc": "docs"
+	},
+	"license": "MIT",
+	"main": "index.js",
+	"name": "movie-server-interface-database",
+	"scripts": {
+		"devStart": "nodemon server.js"
+	},
+	"version": "0.1.0"
 }
