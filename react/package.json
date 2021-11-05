@@ -39,7 +39,6 @@
 	"private": true,
 	"scripts": {
 		"build": "react-scripts build",
-		"devStart": "nodemon server.js",
 		"eject": "react-scripts eject",
 		"start": "react-scripts start",
 		"test": "react-scripts test"
