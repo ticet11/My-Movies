@@ -1,15 +1,17 @@
 import React from "react";
+import process from "process";
 
 import "../../Style/card.scss";
 
 export default function MovieCard({ movie }) {
+	const { TMDB_API_KEY } = process.env;
 	const addMovie = async (e) => {
 		const location = prompt("Where is this movie?", "../assets/video/train.mp4");
 
 		e.preventDefault();
 		console.log("submitting");
 
-		const TMDBurl = `https://api.themoviedb.org/3/movie/${movie.id}?api_key=682ff2fe2db75f083462d4622d51c448&language=en-US`;
+		const TMDBurl = `https://api.themoviedb.org/3/movie/${movie.id}?api_key=${TMDB_API_KEY}&language=en-US`;
 		const localUrl = "http://localhost:3000/movies";
 
 		try {
